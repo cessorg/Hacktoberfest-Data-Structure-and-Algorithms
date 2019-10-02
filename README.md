@@ -35,6 +35,7 @@ Reversing Linked List | :heavy_check_mark: | [C++](C++/LinkedList/ReverseList_Re
 Selection Sort | :rocket: | None
 Shell Sort | :rocket: | None
 Stack | :rocket: | None
+Trie | :heavy_check_mark: | [Python](Python/trie.py)
 
 ### Labels:
 
