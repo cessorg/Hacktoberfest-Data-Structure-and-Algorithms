@@ -1,0 +1,31 @@
+#include<iostream.h>
+#include<conio.h>
+void tower(int rings,char fst,char scnd,char thrd)
+{
+
+/*if (rings==1)
+{  cout<<"move from"<<fst<<"to"<<scnd<<endl;
+   return;
+} */
+
+if(rings>=1)
+{	tower(rings-1,fst,thrd,scnd);
+	cout<<"move from "<<fst<<" to "<<thrd<<endl;
+	tower(rings-1,scnd,fst,thrd);
+
+}
+}
+int main()
+{clrscr();
+int n;
+cout<<"Enter number of rings "<<endl;
+cin>>n;
+// clrscr();
+ tower(n,'a','b','c');
+ getch();
+ return 0;
+}
+
+
+
+
