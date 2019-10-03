@@ -1,0 +1,53 @@
+#include<iostream.h>
+#include<conio.h>
+int display(int arr[],int n);
+void main()
+{clrscr();
+int arr[]={1,5,3};   // given array for stack.
+int i=0,top,maxstk=10,item;
+while(arr[i])
+{cout<<" ";
+i++;
+}
+top=i;
+cout<<"Press a to push "<<endl;
+cout<<"Press b to pop "<<endl;
+if(getch()=='a' || getch()=='A')
+{ cout<<"Enter element to push :- ";
+cin>>item;
+if(top<maxstk)
+{cout<<"Original Array is :-";
+display(arr,top);
+arr[top]=item;
+top=top+1;
+cout<<endl<<"Array after pushing is : "<<endl;
+display(arr,top);
+}
+else
+{cout<<"overflow ";
+}}
+if(getch()=='b' ||getch()=='B')
+{cout<<"one element will be poped ";
+if(top==0)
+{cout<<endl<<"underflow " ;
+getch();
+}
+else
+{cout<<"Array before pop is : ";
+display(arr,top);
+item=arr[top];
+top=top-1;
+cout<<endl<<"after poping array is : "<<endl;
+display(arr,top);
+}
+}
+getch();
+}
+
+
+int display(int arr[],int n)
+
+{for (int l=0;l<n;l++)
+   cout<<arr[l]<<"\t";
+   return 0;
+   }
