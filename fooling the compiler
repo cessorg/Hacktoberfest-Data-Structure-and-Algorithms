@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<conio.h>
+class test
+{int a;
+public:
+void read()
+{a=10;
+}                              // private member value is changing. without using any friend function or any member functio of class.
+void display()
+{cout<<a<<endl;
+}
+};
+void main()
+{clrscr();
+test t;
+t.read();
+t.display();
+int *ptr=(int*)&t;
+*ptr=99;
+t.display();
+getch();
+}
