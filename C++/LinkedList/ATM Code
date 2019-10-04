@@ -1,0 +1,95 @@
+#include<iostream.h>
+#include<conio.h>
+int main()
+{ clrscr();
+unsigned int hun =100,fif=100,ten=100;
+
+Start :  	int total;
+	total=hun*100 + fif*50 + ten*10;
+	cout<<hun<<endl<<fif<<endl<<ten<<endl;
+	cout<<"Enter money to withdraw";
+	int n,c;
+	cin>>n;
+	 int wdl=n;
+	if(n<=total)
+	{
+	while(n>0)
+	{	if(n>=100 && hun!=0)
+
+	{c=n/100;
+	      //	cout<<c<<endl;
+	       { if(c>0 || c<100)
+		  { cout<<"Give "<<c<<" notes of 100"<<endl;
+		  hun-=c;
+		  n=n-c*100;
+		  c=0;
+		  }
+		else
+		   { cout<<"give 100 notes of 100"<<endl;
+		      hun=0;
+		      n=n-10000;
+		      c=0;
+		    }
+	 }	 }
+	       //	hun-=c;
+	       //	cout<<hun<<endl;
+	       //	cout<<"Give "<<"100" <<"notes of 100"<<endl;
+	       //	n=n-100*100;
+
+
+
+
+	 else if(n>=50 && fif!=0)
+
+	   {  c=n/50;
+	      //	cout<<c<<endl;
+	      {  if(c>0 || c<100)
+		 { cout<<"Give "<<c<<" notes of 50"<<endl;
+		  fif-=c;
+		  n=n-c*50;
+		  c=0;
+		 }
+		else
+		  { cout<<"give 100 notes of 50"<<endl;
+		      fif=0;
+		      n=n-5000;
+		      c=0;
+		  }
+	       }
+	    }
+
+	     else
+		 {// c=n/10;
+		   if(n>=10 && ten!=0)
+			{ c=n/10;
+
+	      //	cout<<c<<endl;
+			  if(c>0 || c<100)
+				{ cout<<"Give "<<c<<" notes of 100"<<endl;
+				  ten-=c;
+				  n=n-c*10;
+				  c=0;
+				 }
+			else
+			      { cout<<"give 100 notes of 10"<<endl;
+				ten=0;
+				n=n-1000;
+				c=0;
+			       }
+
+			 }}
+		cout<<"Money Withdrawn:- "<<wdl<<endl;
+		cout<<"Money Left "<<hun*100+fif*50+ten*10<<endl;
+		cout<<"Press Y to withdraw more"<<endl;
+		if(getch()=='y'||getch()=='Y')
+
+		{goto Start;
+		}
+	 }
+	 }
+	 else
+	 {cout<<"Insufficient Funds left";}
+
+	  getch();
+	  return(0);
+	  }
