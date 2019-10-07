@@ -18,6 +18,7 @@ List of data structures and algorithms. Feel free to contribute under Hacktoberf
 Name | Status | Languages
 ------------ | ------------- | -------------
 Adding to linked list | :heavy_check_mark: | [C++](C++/LinkedList/linked_list_add.cpp)
+Anagram | :heavy_check_mark: | [Python](Python/Anagram.py)
 Balanced Paranthesis | :heavy_check_mark: | [C++](C++/Stack/balanced_paranthesis.cpp)
 Binary Search | :rocket: | None
 Binary Search Tree | :rocket: | None
