@@ -18,6 +18,7 @@ Lista de estruturas de dados e algoritmos. Sinta-se livre para contribuir na Hac
 Nome | Status | Línguas
 ------------ | ------------- | -------------
 Adicionando à lista vinculada | :heavy_check_mark: | [C++](C++/LinkedList/linked_list_add.cpp)
+Anagrama | :heavy_check_mark: | [Python](Python/Anagram.py)
 Parantese Equilibrada | :heavy_check_mark: | [C++](C++/Stack/balanced_paranthesis.cpp)
 Pesquisa binária | :rocket: | None
 Árvore de Pesquisa Binária | :rocket: | None
