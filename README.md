@@ -22,14 +22,14 @@ Anagram | :heavy_check_mark: | [Python](Python/Anagram.py)
 Balanced Paranthesis | :heavy_check_mark: | [C++](C++/Stack/balanced_paranthesis.cpp)
 Binary Search | :rocket: | None
 Binary Search Tree | :rocket: | None
-Bubble Sort | :heavy_check_mark: | [Python](Python/BubbleSort.py), [C++](C++/BubbleSort.cpp)
+Bubble Sort | :heavy_check_mark: | [Python](Python/BubbleSort.py), [C++](C++/BubbleSort.cpp), [C](C/BubbleSort/BubbleSort.c)
 Counting Sort | :rocket: | None
 Doubly Linked List | :rocket: | None
 Fibonacci Sequence | :heavy_check_mark: | [C++](C++/Dynamic%20Programming/fib_with_bottomup_approach.cpp)
 GCD | :rocket: | None
 Hashing | :heavy_check_mark: | [C](C/Hashing/hashing.c)
 Heap Sort | :rocket: | None
-Insertion Sort | :rocket: | None
+Insertion Sort | :heavy_check_mark: | [C](C/InsertionSort/InsertionSort.c)
 Kadane's Algorithm | :rocket: | None
 Linked List | :rocket: | None
 Merge Sort | :rocket: | None
