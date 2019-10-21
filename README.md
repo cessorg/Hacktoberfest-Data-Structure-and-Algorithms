@@ -19,6 +19,7 @@ Name | Status | Languages
 ------------ | ------------- | -------------
 Adding to linked list | :heavy_check_mark: | [C++](C++/LinkedList/linked_list_add.cpp)
 Anagram | :heavy_check_mark: | [Python](Python/Anagram.py)
+Merging Two Dictionaries | :heavy_check_mark: | [Python](Python/Two_Dictionary_Merge.py)
 Balanced Paranthesis | :heavy_check_mark: | [C++](C++/Stack/balanced_paranthesis.cpp)
 Binary Search | :rocket: | None
 Binary Search Tree | :rocket: | None
