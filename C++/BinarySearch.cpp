@@ -1,9 +1,9 @@
-// code by ycyseng
+// code by yctseng1227
 #include <iostream>
 #include <algorithm>
 using namespace std;
 
-int binarysearch(int data[], int search, int n) {
+int BinarySearch(int data[], int search, int n) {
     int left=0, right=n-1;
     while (left <= right){
         int mid = (left + right) / 2;
@@ -33,7 +33,7 @@ int main(){
     cout << "Please enter number you want to find\n";
     cin >> search;
 
-    ans = binarysearch(data, search, sizeof(data) / sizeof(int));
+    ans = BinarySearch(data, search, sizeof(data) / sizeof(int));
 
     if (ans < 0){
         cout << "Not found...\n";

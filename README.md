@@ -21,9 +21,9 @@ Adding to linked list | :heavy_check_mark: | [C++](C++/LinkedList/linked_list_ad
 Anagram | :heavy_check_mark: | [Python](Python/Anagram.py)
 Merging Two Dictionaries | :heavy_check_mark: | [Python](Python/Two_Dictionary_Merge.py)
 Balanced Paranthesis | :heavy_check_mark: | [C++](C++/Stack/balanced_paranthesis.cpp)
-Binary Search | :rocket: | None
+Binary Search | :heavy_check_mark: | [C++](C++/BinarySearch)
 Binary Search Tree | :rocket: | None
-Bubble Sort | :heavy_check_mark: | [Python](Python/BubbleSort.py), [C++](C++/BubbleSort.cpp), [C](C/BubbleSort/BubbleSort.c)
+Bubble Sort | :heavy_check_mark: | [Python](Python/BubbleSort.py), [C++](C++/Sort/BubbleSort.cpp), [C](C/BubbleSort/BubbleSort.c)
 Counting Sort | :rocket: | None
 Doubly Linked List | :rocket: | None
 Fibonacci Sequence | :heavy_check_mark: | [C++](C++/Dynamic%20Programming/fib_with_bottomup_approach.cpp)
@@ -36,7 +36,7 @@ Linked List | :rocket: | None
 Merge Sort | :heavy_check_mark: | [C](C/MergeSort/MergeSort.c)
 Permutation | :heavy_check_mark: | [Python](Python/permutation.py)
 Queue | :heavy_check_mark: | [C++](C++/Queue)
-Quick Sort | :rocket: | None
+Quick Sort | :heavy_check_mark: | [C++](C++/Sort/QuickSort)
 Radix Sort | :rocket: | None
 Reverse a string using stack | :heavy_check_mark: | [C++](C++/Stack/Reverse%20a%20string%20using%20stack.cpp)
 Reversing Linked List | :heavy_check_mark: | [C++](C++/LinkedList/ReverseList_Recursion.cpp)
