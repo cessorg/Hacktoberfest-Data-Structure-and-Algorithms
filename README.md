@@ -36,7 +36,7 @@ Linked List | :rocket: | None
 Merge Sort | :heavy_check_mark: | [C](C/MergeSort/MergeSort.c)
 Permutation | :heavy_check_mark: | [Python](Python/permutation.py)
 Queue | :heavy_check_mark: | [C++](C++/Queue)
-Quick Sort | :heavy_check_mark: | [C++](C++/Sort/QuickSort.cpp)
+Quick Sort | :heavy_check_mark: | [C++](C++/Sort/QuickSort.cpp), [C](C/QuickSort/Quicksort.c)
 Radix Sort | :rocket: | None
 Reverse a string using stack | :heavy_check_mark: | [C++](C++/Stack/Reverse%20a%20string%20using%20stack.cpp)
 Reversing Linked List | :heavy_check_mark: | [C++](C++/LinkedList/ReverseList_Recursion.cpp)
