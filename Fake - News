@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    string h;
+    cin>>h;
+    bool g1=true,g2=false,g3=false,g4=false,g5=false,gu=false;
+    for(int i=0;i<h.length();i++){
+               if(h[i]=='h'&&g1){g2=true;g1=false;}
+               else if(h[i]=='e'&&g2){g3=true;g2=false;}
+               else if(h[i]=='i'&&g3){g4=true;g3=false;}
+               else if(h[i]=='d'&&g4){g5=true;g4=false;}
+               else if(h[i]=='i'&&g5){gu=true;break;}
+    }
+    if(gu){cout<<"YES"<<endl;}
+    else{cout<<"NO"<<endl;}
+}
