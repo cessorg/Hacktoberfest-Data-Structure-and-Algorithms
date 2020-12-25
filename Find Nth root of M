@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	//code
+	int n,a,b;
+	cin>>n;
+	while(n--){
+	    cin>>a>>b;
+	    float f =a;
+	    double v =1.0/f;
+	    if(ceil(pow(b , v))==floor(pow(b , v))){cout<<pow(b , v)<<endl;}
+	    else{cout<<-1<<endl;}
+	}
+	return 0;
+}
