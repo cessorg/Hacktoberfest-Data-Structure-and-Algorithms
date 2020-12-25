@@ -1,0 +1,15 @@
+int c=0;
+void fun(Node *root){
+    if(!root)return;
+    fun(root->left);
+    if(root->left!=NULL || root->right!=NULL){c++;}
+    fun(root->right);
+}
+int countNonLeafNodes(Node* root)
+{
+    // Code here
+    fun(root);
+    int  y=c;
+    c=0;
+    return y;
+}
