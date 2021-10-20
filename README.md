@@ -46,6 +46,7 @@ Stack with arrays | :heavy_check_mark: | [C++](C++/Stack/stack_with_arrays.cpp)
 Stack with linked list | :heavy_check_mark: | [C++](C++/Stack/stack_with_linked_list.cpp)
 Trie | :heavy_check_mark: | [Python](Python/trie.py)
 Subset sum problem | :heavy_check_mark: | [C++](C++/Dynamic%20Programming/Subset_sum_problem.cpp)
+Longest Common Prefix  | :heavy_check_mark: | [C++](C++/Dynamic%20Programming/Longest_Common_Prefix .cpp)
 
 ### Labels:
 
